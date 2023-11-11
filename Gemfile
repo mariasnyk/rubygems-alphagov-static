@@ -43,8 +43,8 @@ gem 'plek', '1.11.0'
 gem 'govuk_frontend_toolkit', '~> 5.1.0'
 
 if ENV['GOVUK_TEMPLATE_DEV']
-  gem 'govuk_template', :path => "../govuk_template"
+  gem 'govuk_template', '>= 0.19.1', :path => "../govuk_template"
 else
-  gem 'govuk_template', '0.19.0'
+  gem 'govuk_template', '0.19.1'
 end
 gem 'gds-api-adapters', '38.1.0'
